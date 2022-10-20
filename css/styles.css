@@ -775,3 +775,36 @@ img {
 .active::after{
     opacity: 1;
 }
+
+.subscribe-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+}
+
+.subscribe-btn{
+    display: flex;
+    cursor: pointer;
+    background-color: var(--accent-color);
+    border-radius: 4px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    padding: 0px 0px;
+    margin-right: 0;
+}
+
+.btn-text{
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color);
+}
